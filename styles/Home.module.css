@@ -1,10 +1,14 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+}
+
+.timer{
+  font-family: 'Raleway', sans-serif;
 }
 
 .description {
@@ -232,6 +236,7 @@
       rgba(var(--callout-rgb), 0.5)
     );
     background-clip: padding-box;
+    -webkit-backdrop-filter: blur(24px);
     backdrop-filter: blur(24px);
   }
 

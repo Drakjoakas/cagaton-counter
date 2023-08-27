@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-import localFont from "next/font/local";
 import {VT323} from "next/font/google"
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
@@ -21,10 +19,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Cagatón 💩</title>
         <meta name="description" content="Cagatón 💩" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/poop.ico" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link

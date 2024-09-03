@@ -3,7 +3,7 @@ import {VT323} from "next/font/google"
 import styles from "@/styles/Home.module.css";
 import { useState } from "react";
 
-const cagatonDate = new Date("2023-09-05");
+const cagatonDate = new Date("2024-09-05");
 const vt323Font = VT323({weight: '400',subsets: ['latin']});
 
 
